@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="angular.min.js"></script>
+	<title>scope001</title>
+	<script type="text/javascript">
+      angular.module('myApp',[])
+      	.controller('MyController',function($scope) {
+      		$scope.person = {
+      			greeted : false
+      		};
+          $scope.test = {
+            name : "test001",
+            age : 18,
+            mind : "sdlfjsl",
+            mark : true
+          };
+      	})
+      	.controller('ChildController',function($scope){
+      		$scope.sayHello = function() {
+      			$scope.person.name = 'Sdfjlkdsjlkj';
+      		};
+      	});
+
+    </script>
+</head>
+  <body>
+    <div ng-app="myApp">
+    	<div ng-controller="MyController">
+        <h1>{{ test.name }}</h1>
+        <h2>{{ test.age }}</h2>
+        <h2>{{ test.mind }}</h2>
+        <h3 ng-show="test.mark">the mark</h3>
+    		<div ng-controller="ChildController">
+    			<a ng-click="sayHello()">Hello</a>
+    		</div>
+    		{{ person }}
+  		</div>
+	</div>
+  </body>
+</html>

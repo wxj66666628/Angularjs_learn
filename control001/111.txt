@@ -1,0 +1,64 @@
+12345手机APP功能需求：
+1.市民提交需求（参照微信网站自助服务）——后台转派——承办单位办理——后台办结（整个工单处理流程可在APP进行）；
+2.在线客服；
+3.推送信息；-----------------------
+4.知识库查询；
+5.工单查询；
+6.案例公开；
+7.实时数据；
+8.支持在线直播
+
+提交诉求
+拨打电话
+办理查询
+案例公开
+诉求公开
+热门话题
+服务事项
+知识库
+
+Guangzhou Public Service Hotline
+
+
+12345 android ios
+政务
+
+
+
+下拉刷新 拖拽
+
+$scope可以嵌套，可以引用父级$scope中的属性
+在AngularJS中，作用域原型链的顶端是$rootScope，JavaScript寻找到$rootScope为止。
+
+指令、模块、表达式
+
+.module
+.factory 注册服务
+.controller
+.run
+
+ng-controller
+ng-include
+ng-model
+ng-repeat
+ng-click可以将按钮、链接等其他任何DOM元素同点击事件进行绑定
+
+
+控制器嵌套
+
+
+angularjs应用模板标记：
+
+指令：将DOM元素增强为可复用的DOM组件的属性或元素
+值绑定：模板语法{{ }}可以将表达式绑定到视图上
+过滤器：可以在视图中使用的函数，用来进行格式化
+表单控件：用来检验用户输入的控件
+
+angularjs.org
+getbootstrap.com
+docs.angularjs.org/guide/expression
+
+闭包
+(function(){
+
+})();
