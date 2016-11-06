@@ -9,12 +9,19 @@
       		$scope.person = {
       			greeted : false
       		};
-          $scope.test = {
+          $scope.test = [
+          {
             name : "test001",
             age : 18,
             mind : "sdlfjsl",
             mark : true
-          };
+          },
+          {
+            name : "test002",
+            age : 18,
+            mind : "sdlfjsl",
+            mark : true
+          }];
       	})
       	.controller('ChildController',function($scope){
       		$scope.sayHello = function() {
@@ -27,10 +34,11 @@
   <body>
     <div ng-app="myApp">
     	<div ng-controller="MyController">
-        <h1>{{ test.name }}</h1>
-        <h2>{{ test.age }}</h2>
-        <h2>{{ test.mind }}</h2>
-        <h3 ng-show="test.mark">the mark</h3>
+        <div ng-repeat="t in test">
+          <h1>{{ t.name }}</h1>
+          <h2>{{ t.age }}</h2>
+          <h2>{{ t.mind }}</h2>
+        </div>
     		<div ng-controller="ChildController">
     			<a ng-click="sayHello()">Hello</a>
     		</div>

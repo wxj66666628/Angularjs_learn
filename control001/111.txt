@@ -43,6 +43,8 @@ ng-model
 ng-repeat
 ng-click可以将按钮、链接等其他任何DOM元素同点击事件进行绑定
 
+ng-show
+ng-hide
 
 控制器嵌套
 
@@ -62,3 +64,13 @@ docs.angularjs.org/guide/expression
 (function(){
 
 })();
+
+过滤器：
+{{ data* | filter:options* }}
+date
+uppercase&lowercase
+limitTo
+<li ng-repeat="t in test | limitTo:3">
+orderBy
+
+图片 ng-src
