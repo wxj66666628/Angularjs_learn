@@ -36,6 +36,7 @@ $scope可以嵌套，可以引用父级$scope中的属性
 .factory 注册服务
 .controller
 .run
+.directive 定义指令
 
 ng-controller
 ng-include
@@ -45,6 +46,8 @@ ng-click可以将按钮、链接等其他任何DOM元素同点击事件进行绑定
 
 ng-show
 ng-hide
+
+ng-switch
 
 控制器嵌套
 
@@ -74,3 +77,13 @@ limitTo
 orderBy
 
 图片 ng-src
+
+
+$watch
+$interpolate
+$broadcast和$emit事件广播，$digest处理等
+
+<ui-view></ui-view>
+
+ionic路由
+http://www.ionic.wang/js_doc-index-id-21.html

@@ -34,11 +34,13 @@
   <body>
     <div ng-app="myApp">
     	<div ng-controller="MyController">
+
         <div ng-repeat="t in test">
           <h1>{{ t.name }}</h1>
           <h2>{{ t.age }}</h2>
           <h2>{{ t.mind }}</h2>
         </div>
+
     		<div ng-controller="ChildController">
     			<a ng-click="sayHello()">Hello</a>
     		</div>
