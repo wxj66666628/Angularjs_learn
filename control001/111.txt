@@ -87,3 +87,4 @@ $broadcast和$emit事件广播，$digest处理等
 
 ionic路由
 http://www.ionic.wang/js_doc-index-id-21.html
+

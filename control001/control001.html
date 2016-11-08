@@ -34,7 +34,7 @@
   <body>
     <div ng-app="myApp">
     	<div ng-controller="MyController">
-
+      <div ng-show="test[0].mark">ng-show</div>
         <div ng-repeat="t in test">
           <h1>{{ t.name }}</h1>
           <h2>{{ t.age }}</h2>
