@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<script src="angular.min.js"></script>
+	<script src="angular-ui-router.js"></script>
+	<title>angular ui router</title>
+
+	<style type="text/css">
+            .selected{background-color: #efefef; width:120px; }
+            .detail{width: 300px;margin: 30px;border-top: 1px solid #efefef;}
+    </style>
+
+	<script type="text/javascript">
+		
+	</script>
+
+	<script id="templates/shows-detail.html" type="text/ng-template">
+		<h3>{{selectedShow.name}}</h3>
+		<p>
+    		{{selectedShow.description}}
+		</p>
+</code>
+	</script>
+</head>
+<body id="index">
+
+    <!-- Angular UI Router Directive for template insertion -->
+    <div id="content" ui-view></div>
+    
+</body>
+</html>

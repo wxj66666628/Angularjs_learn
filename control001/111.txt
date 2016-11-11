@@ -79,7 +79,7 @@ orderBy
 图片 ng-src
 
 
-$watch
+$watch 监听模型变化
 $interpolate
 $broadcast和$emit事件广播，$digest处理等
 
