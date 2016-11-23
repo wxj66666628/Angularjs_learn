@@ -49,6 +49,13 @@ ng-hide
 
 ng-switch
 
+ng-init 给初始值
+
+ng-class 给class名字和真假值,为真就应用class，  ng-class="{ active:tab === 1 }"
+
+$index只在ng-repeat中起作用，它的作用是获取当前标签的索引值。除了$index外还有$first,$middle,$last,$even,$odd。
+
+
 控制器嵌套
 
 
