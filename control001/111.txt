@@ -1,81 +1,81 @@
-12345�ֻ�APP��������
-1.�����ύ���󣨲���΢����վ�������񣩡�����̨ת�ɡ����а쵥λ����������̨��ᣨ���������������̿���APP���У���
-2.���߿ͷ���
-3.������Ϣ��-----------------------
-4.֪ʶ���ѯ��
-5.������ѯ��
-6.����������
-7.ʵʱ���ݣ�
-8.֧������ֱ��
+12345手机APP功能需求：
+1.市民提交需求（参照微信网站自助服务）——后台转派——承办单位办理——后台办结（整个工单处理流程可在APP进行）；
+2.在线客服；
+3.推送信息；-----------------------
+4.知识库查询；
+5.工单查询；
+6.案例公开；
+7.实时数据；
+8.支持在线直播
 
-�ύ����
-����绰
-������ѯ
-��������
-���󹫿�
-���Ż���
-��������
-֪ʶ��
+提交诉求
+拨打电话
+办理查询
+案例公开
+诉求公开
+热门话题
+服务事项
+知识库
 
 Guangzhou Public Service Hotline
 
 
 12345 android ios
-����
+政务
 
 
 
-����ˢ�� ��ק
+下拉刷新 拖拽
 
-$scope����Ƕ�ף��������ø���$scope�е�����
-��AngularJS�У�������ԭ�����Ķ�����$rootScope��JavaScriptѰ�ҵ�$rootScopeΪֹ��
+$scope可以嵌套，可以引用父级$scope中的属性
+在AngularJS中，作用域原型链的顶端是$rootScope，JavaScript寻找到$rootScope为止。
 
-ָ�ģ�顢����ʽ
+指令、模块、表达式
 
 .module
-.factory ע�����
+.factory 注册服务
 .controller
 .run
-.directive ����ָ��
+.directive 定义指令
 
 ng-controller
 ng-include
 ng-model
 ng-repeat
-ng-click���Խ���ť�����ӵ������κ�DOMԪ��ͬ����¼����а�
+ng-click可以将按钮、链接等其他任何DOM元素同点击事件进行绑定
 
 ng-show
 ng-hide
 
 ng-switch
 
-ng-init ����ʼֵ
+ng-init 给初始值
 
-ng-class ��class���ֺ����ֵ,Ϊ���Ӧ��class��  ng-class="{ active:tab === 1 }"
+ng-class 给class名字和真假值,为真就应用class，  ng-class="{ active:tab === 1 }"
 
-$indexֻ��ng-repeat�������ã����������ǻ�ȡ��ǰ��ǩ������ֵ������$index�⻹��$first,$middle,$last,$even,$odd��
-
-
-������Ƕ��
+$index只在ng-repeat中起作用，它的作用是获取当前标签的索引值。除了$index外还有$first,$middle,$last,$even,$odd。
 
 
-angularjsӦ��ģ���ǣ�
+控制器嵌套
 
-ָ���DOMԪ����ǿΪ�ɸ��õ�DOM��������Ի�Ԫ��
-ֵ�󶨣�ģ���﷨{{ }}���Խ�����ʽ�󶨵���ͼ��
-����������������ͼ��ʹ�õĺ������������и�ʽ��
-�����ؼ������������û�����Ŀؼ�
+
+angularjs应用模板标记：
+
+指令：将DOM元素增强为可复用的DOM组件的属性或元素
+值绑定：模板语法{{ }}可以将表达式绑定到视图上
+过滤器：可以在视图中使用的函数，用来进行格式化
+表单控件：用来检验用户输入的控件
 
 angularjs.org
 getbootstrap.com
 docs.angularjs.org/guide/expression
 
-�հ�
+闭包
 (function(){
 
 })();
 
-��������
+过滤器：
 {{ data* | filter:options* }}
 date
 uppercase&lowercase
@@ -83,15 +83,15 @@ limitTo
 <li ng-repeat="t in test | limitTo:3">
 orderBy
 
-ͼƬ ng-src
+图片 ng-src
 
 
-$watch ����ģ�ͱ仯
+$watch 监听模型变化
 $interpolate
-$broadcast��$emit�¼��㲥��$digest������
+$broadcast和$emit事件广播，$digest处理等
 
 <ui-view></ui-view>
 
-ionic·��
+ionic路由
 http://www.ionic.wang/js_doc-index-id-21.html
 
