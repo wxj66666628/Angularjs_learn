@@ -95,3 +95,5 @@ $broadcast和$emit事件广播，$digest处理等
 ionic路由
 http://www.ionic.wang/js_doc-index-id-21.html
 
+CSS3平均分配，三版
+$scope 是连接 controllers(控制器)和 templates(模板 view/视图)的主要胶合体
